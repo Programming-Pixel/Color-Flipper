@@ -1,0 +1,118 @@
+.nav-center {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  list-style-type: none;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 25px;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+p {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: overline;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+li a:hover {
+  text-transform: uppercase;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  animation: reverse;
+}
+
+.container {
+  padding-top: 15em;
+  width: 940px;
+  margin: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .btn {
+  border-radius: 15px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+  background-color: transparent;
+  border: solid 3px black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container .btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container h2 {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: solid 5px black;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+}
+
+.container h2 span:after {
+  content: attr(data-unselectable);
+}
+
+.container h2:hover {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  padding-top: 15em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
